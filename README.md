@@ -2,10 +2,11 @@
   <img src="assets/icon.png" width="120" alt="MyStyles Logo">
 </p>
 
-<h1 align="center">✂️ MyStyles Barber</h1>
+<h1 align="center">MyStyles Barber</h1>
 
 <p align="center">
-  <strong>Your Style. Your Barber. Your Way.</strong>
+  <strong>Your Style. Your Barber. Your Way.</strong><br>
+  <sub>Book your perfect cut in seconds, not phone calls.</sub>
 </p>
 
 <p align="center">
@@ -17,40 +18,44 @@
 
 ---
 
-## 📱 About
+## The Problem
 
-**MyStyles** is a modern barbershop booking app that connects clients with talented barbers. Browse styles, book appointments, and discover your perfect look.
+Finding a new barber is a gamble. Reading reviews helps, but you still don't know what you'll get. And once you find someone good? Good luck getting an appointment.
 
-### ✨ Key Features
-
-- 📅 **Easy Booking** - Book appointments in seconds
-- ✂️ **Browse Styles** - Explore haircut galleries for inspiration
-- ⭐ **Reviews** - Read and leave reviews for barbers
-- 🔔 **Reminders** - Never miss an appointment
-- 💳 **Payments** - Pay seamlessly through the app
-- 🤖 **AI Stylist** - Get personalized style recommendations
+**MyStyles** shows you real work from real barbers. Browse their portfolio, read reviews, and book your slot - all without playing phone tag.
 
 ---
 
-## 🚀 Quick Start
+## What You Get
 
-\`\`\`bash
+| Feature | Description |
+|---------|-------------|
+| **Easy Booking** | Book appointments in seconds |
+| **Browse Styles** | Explore haircut galleries for inspiration |
+| **Reviews** | Read and leave reviews for barbers |
+| **Reminders** | Never miss an appointment |
+| **Payments** | Pay seamlessly through the app |
+| **AI Stylist** | Get personalized style recommendations |
+
+---
+
+## Quick Start
+
+```bash
 # Install dependencies
 npm install
 
-# Start the development server
+# Start Expo dev server
 npx expo start
 
-# Run on iOS Simulator
+# Run on simulators
 npm run ios
-
-# Run on Android Emulator
 npm run android
-\`\`\`
+```
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -62,17 +67,7 @@ npm run android
 
 ---
 
-## 📦 App Info
-
-| Key | Value |
-|-----|-------|
-| **Slug** | \`mystyles\` |
-| **iOS Bundle** | \`com.vivacity.mystyles\` |
-| **Android Package** | \`com.vivacity.mystyles\` |
-
----
-
-## 🎨 Design
+## Design
 
 Sleek dark theme with gold/amber (#F59E0B) accents:
 
@@ -83,24 +78,35 @@ Sleek dark theme with gold/amber (#F59E0B) accents:
 
 ---
 
-## 📱 App Store Deployment
+## App Info
 
-\`\`\`bash
-# Build for iOS
-eas build -p ios --profile production
-
-# Submit to App Store
-eas submit -p ios --profile production
-\`\`\`
+| Key | Value |
+|-----|-------|
+| **Slug** | `mystyles` |
+| **iOS Bundle** | `com.vivacity.mystyles` |
+| **Android Package** | `com.vivacity.mystyles` |
 
 ---
 
-## 📄 License
+## Deployment
 
-Proprietary - © 2025 Vivacity Digital
+```bash
+# Build for production
+eas build -p ios --profile production
+eas build -p android --profile production
+
+# Submit to stores
+eas submit -p ios
+eas submit -p android
+```
 
 ---
 
 <p align="center">
-  <strong>Built with ✂️ by Vivacity Digital</strong>
+  <strong>Built by Vivacity Digital</strong><br>
+  <a href="https://vivacitydigital.com.au">vivacitydigital.com.au</a>
+</p>
+
+<p align="center">
+  <sub>2025 Vivacity Digital. All rights reserved.</sub>
 </p>

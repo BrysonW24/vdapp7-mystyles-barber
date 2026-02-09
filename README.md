@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="120" alt="MyStyles Logo">
+  <img src="assets/icon.png" width="100" alt="MyStyles Logo">
 </p>
 
 <h1 align="center">MyStyles Barber</h1>
@@ -11,102 +11,68 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue?style=flat-square" alt="Platform">
-  <img src="https://img.shields.io/badge/Expo-SDK%2054-black?style=flat-square&logo=expo" alt="Expo SDK">
+  <img src="https://img.shields.io/badge/Expo-SDK%2054-000020?style=flat-square&logo=expo" alt="Expo">
   <img src="https://img.shields.io/badge/React%20Native-0.76-61dafb?style=flat-square&logo=react" alt="React Native">
-  <img src="https://img.shields.io/badge/TypeScript-5.3-3178c6?style=flat-square&logo=typescript" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Stripe">
+</p>
+
+<p align="center">
+  <a href="https://vivacitydigital.com.au">vivacitydigital.com.au</a>
 </p>
 
 ---
 
-## The Problem
+### The Idea
 
-Finding a new barber is a gamble. Reading reviews helps, but you still don't know what you'll get. And once you find someone good? Good luck getting an appointment.
-
-**MyStyles** shows you real work from real barbers. Browse their portfolio, read reviews, and book your slot - all without playing phone tag.
+Finding a new barber is a gamble. Reading reviews helps, but you still don't know what you'll get. MyStyles shows you real work from real barbers — browse their portfolio, read honest reviews, and book your slot without playing phone tag.
 
 ---
 
-## What You Get
+### What It Does
 
-| Feature | Description |
-|---------|-------------|
+| | |
+|---|---|
 | **Easy Booking** | Book appointments in seconds |
 | **Browse Styles** | Explore haircut galleries for inspiration |
 | **Reviews** | Read and leave reviews for barbers |
 | **Reminders** | Never miss an appointment |
-| **Payments** | Pay seamlessly through the app |
+| **Payments** | Pay seamlessly via Stripe |
 | **AI Stylist** | Get personalized style recommendations |
 
 ---
 
-## Quick Start
+### Tech Stack
+
+| | |
+|---|---|
+| Expo SDK 54 | React Native framework |
+| TypeScript 5.3 | Type safety |
+| Redux Toolkit | State management |
+| React Navigation | Navigation |
+| Stripe | Payment processing |
+
+---
+
+### Design
+
+Sleek dark theme with gold/amber (`#F59E0B`) accents — minimalist card designs, barber profile cards with ratings, horizontal service scrollers, and a calendar booking interface.
+
+---
+
+### Quick Start
 
 ```bash
-# Install dependencies
-npm install
-
-# Start Expo dev server
-npx expo start
-
-# Run on simulators
-npm run ios
-npm run android
+npm install && npx expo start
 ```
-
----
-
-## Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **Expo SDK 54** | React Native framework |
-| **TypeScript** | Type safety |
-| **Redux Toolkit** | State management |
-| **React Navigation** | Navigation |
-| **Stripe** | Payment processing |
-
----
-
-## Design
-
-Sleek dark theme with gold/amber (#F59E0B) accents:
-
-- Minimalist card designs
-- Barber profile cards with ratings
-- Horizontal service scrollers
-- Calendar booking interface
-
----
-
-## App Info
 
 | Key | Value |
 |-----|-------|
-| **Slug** | `mystyles` |
 | **iOS Bundle** | `com.vivacity.mystyles` |
 | **Android Package** | `com.vivacity.mystyles` |
 
 ---
 
-## Deployment
-
-```bash
-# Build for production
-eas build -p ios --profile production
-eas build -p android --profile production
-
-# Submit to stores
-eas submit -p ios
-eas submit -p android
-```
-
----
-
 <p align="center">
-  <strong>Built by Vivacity Digital</strong><br>
-  <a href="https://vivacitydigital.com.au">vivacitydigital.com.au</a>
-</p>
-
-<p align="center">
-  <sub>2025 Vivacity Digital. All rights reserved.</sub>
+  <sub>Part of the <strong>Vivacity Digital</strong> app portfolio — <code>vdapp7</code></sub><br>
+  <sub>Built by <a href="https://github.com/BrysonW24">Bryson Walter</a> · <a href="https://vivacitydigital.com.au">vivacitydigital.com.au</a></sub>
 </p>
